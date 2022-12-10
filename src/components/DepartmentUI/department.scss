@@ -1,0 +1,89 @@
+.Department{
+    width: 94%;
+    padding: 20px 0;
+    min-height: 90vh;
+    display: flex;
+    background: #F7F7F7;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 0px 10px 10px 0px;
+    z-index:1;
+    position: relative;
+    margin-top: -13%;
+    .in_department{
+        .department_text_group{
+            display: flex;
+            position: relative;
+            .department_text_group_img{
+                width: 120px;
+                height: 7.96px;
+                margin-top: 63px;
+                background: #437E4A;
+                border-radius: 0px 2px 2px 0px;
+            }
+            .department_text_group_text{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 60px;
+                line-height: 74px;
+                color: #3A3A3A;
+                margin-top: 30px;
+            }
+        }
+        .container-fluid{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .row{
+                transition: .1s linear;
+                display: flex;
+                align-items: center;
+                justify-content: center; 
+                :hover{
+                    transform: scale(0.9);
+                    transition: .1s linear;
+                }
+                .col-xxl-3{
+                    cursor: pointer;
+                    margin: 30px;
+                    display: flex;
+                    justify-content: center;
+                    height: 250px;
+                    max-height: 250px;
+                    align-items: center;
+                    padding: 10px;
+                    box-sizing: border-box;
+                    background: #FFFFFF;
+                    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+                    border-radius: 10px;
+                    .in_clo_img{
+                        display: flex;
+                        justify-content: center;
+                        img{
+                            margin: 7px auto;
+                            width: 80px;
+                            height: 80px;
+                        }
+                    }
+                    .in_clo_title{
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 30px;
+                        line-height: 37px;
+                        text-align: center;
+                        color: #3A3A3A;
+                    }
+                    .in_clo_description{
+                        margin-top: 10px;
+                        padding: 0 20px;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 29px;
+                        text-align: center;
+                        color: #3A3A3A;
+                    }
+                }
+            }
+        }
+    }
+}

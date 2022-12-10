@@ -1,0 +1,9 @@
+.navbar {
+  width: 1920px;
+  height: 100px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  padding: 0 120px !important; }
+
+/*# sourceMappingURL=navbar.css.map */
